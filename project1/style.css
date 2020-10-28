@@ -1,0 +1,2198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Myriad Pro Regular';
+}
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('css/MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+.content-section{
+    width: 100%;
+    background-image: url('../project1/img/shape1.png');
+    height: 714px;
+    background-size: cover;
+    padding-bottom: 4rem;
+}
+.content-area{
+    text-align: center;
+    padding-top: 5rem;
+    color: #fff;
+}
+.content-area .concluir-btn{
+    border: none;
+    background-color:#00C144;
+    padding:8px 18px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+.innerArea{
+    padding-top: 5rem;
+}
+.innerArea h5{
+    font-size: 22px;
+}
+/*footer section start*/
+footer{
+    width: 100%;
+    background-color: #063B7F;
+    margin-top: 14rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.footer-logo img{
+    width: 150px;
+}
+.social-area{
+    padding-top: 1.3rem;
+    float: right;
+}
+.social-area ul li{
+    list-style: none;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+    padding-top: 4px;
+}
+.social-area ul li:nth-child(1){
+    background-color: #FF0000;
+}
+.social-area ul li:nth-child(2){
+    background-color: #007AB9;
+}
+.social-area ul li:nth-child(3){
+    background-color: #D73890;
+}
+.social-area ul li:nth-child(4){
+    background-color: #3C5A99;
+}
+.social-area ul li a .fab{
+    color: #fff;
+}
+
+
+
+.copyrights-wrapper  {
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #252525;
+  padding: 10px 0px;
+}
+
+
+
+/*******
+ start Esqueci minha senha 1
+
+******/
+
+.img-fluid{
+    width: 100% !important;
+    height: 714px !important;
+    max-width: 100%;
+}
+.images{
+    position: absolute;
+    width: 100% !important;
+}
+
+.logo{
+    position: relative;
+    text-align: center;
+    top: 100px;
+    display: block;
+    overflow: hidden;
+    
+}
+
+
+.top-bar{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+
+
+}
+.min-w{
+    min-width: 247px !important;
+}
+.main-menu li.active{
+    background: #FFFFFF;
+    padding: 0px 10px;
+    
+
+}
+.main-menu {
+    background-color: #203f77;
+    overflow: hidden;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    text-decoration: none;
+    padding: 0px 15px;
+    float: right;
+    box-shadow:  5px 5px 13px -9px #000000,  5px 5px 7px -30px #000000;
+}
+
+.main-menu ul {
+    margin: 0;
+    list-style: none;
+}
+.main-menu  ul  li {
+    float: left;
+}
+.main-menu ul li a {
+    color: #767676;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+    padding: 18px 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+
+
+.content-area{
+    position: relative;
+}
+
+
+.content-area .concluir-white{
+    border: none;
+    background-color:#FFFFFF;
+    padding:10px 30px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #767676;
+}
+
+.email input[type=email]{
+    padding:15px 20px; 
+    background:#FFFFFF; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    width: 28%;
+}
+
+.innerArea h5{
+    font-size: 30px;
+
+}
+
+
+/*******
+ end Esqueci minha senha 1
+
+******/
+
+
+
+/*******
+ start Fale Conosco 2
+
+******/
+.content-area .concluir-green{
+    border: none;
+    background-color:#00C144;
+    padding:10px 30px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+.innerArea h1{
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+
+}
+
+.Mensagem-text{
+    padding-top: 10rem;
+
+}
+
+.Mensagem{
+   margin: 13rem 0 0 0;
+
+}
+/*******
+ end Fale Conosco 2
+
+******/
+
+
+
+
+
+/*******
+ start Mensagem Enviada
+
+******/
+.content{
+    min-height: auto;
+    background: #FFFFFF;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 14px -5px #000000;
+}
+
+.email-text{
+    color: #262626;
+    text-align: left;
+    font-size: 20px;
+    padding: 5rem 4rem 0;
+
+}
+
+.email-text p.last-p{
+   color: black;
+   font-weight: 700;
+}
+
+
+.footer {
+    margin-top: 8rem !important;
+}
+
+
+/*******
+ start Mensagem Enviada
+
+******/
+
+
+
+
+
+/*******
+ start LOGIN Empresa 1
+
+******/
+
+
+.content-area .concluir-login{
+    border: none;
+    background-color:#00C144;
+    padding:8px 90px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+
+.form-text a{
+    color: #767676;
+}
+
+/*******
+ end LOGIN Empresa 1
+
+******/
+
+
+
+/*******
+ start Edição de galeria.
+
+******/
+
+.content1{
+    min-height: 700px;
+    background: #FFFFFF;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 14px -5px #000000;
+    margin-top: -55px;
+}
+
+
+.content-mid{
+    min-height: 500px;
+    background: #d7d7d7;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 14px -5px #000000;
+    margin-top: -40rem;
+    color: #a5a5a5;
+}
+
+
+.content-mid p{
+    font-size: 30px;
+    color: #1d60b6;
+}
+
+.content-area .concluir-logins{
+    border: none;
+    background-color:#00C144;
+    padding:10px 60px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+
+/*******
+ end Edição de galeria.
+
+******/
+
+
+
+/*******
+ start Edição de galeria 
+ visualização prévia galeria
+
+******/
+
+.content3{
+    min-height: 700px;
+    background: #FFFFFF;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 14px -5px #000000;
+    margin-top: -55px;
+    color: #535c68;
+    font-size: 25px;
+}
+
+.image-content{
+    width: 100%;
+    padding-left: 5%;
+}
+
+.upload{
+    min-height: 30px;
+    background: #D7D7D7;
+    width: 30%;
+    margin: auto;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 14px -5px #000000;
+    margin-top: 55px;
+    
+    }
+
+
+.upload{
+    color: #535c68;
+    font-size: 40px;
+}
+.upload img{
+    margin-top: 15px;
+    padding-right: 30px;
+    height: 50px;
+    width: auto;
+}
+.upload span{
+    padding-left: 10px
+}
+
+
+/*******
+ end Edição de galeria 
+ visualização prévia galeria
+
+******/
+
+
+/*******
+ strat Fale Conosco
+
+******/
+
+.form-conosco h2{
+    margin-top: 20px;
+    color: #95a5a6;
+    text-transform: capitalize;
+}
+
+
+
+.form-conosco{
+    margin: auto;
+    width: 80%;
+}
+
+.form-conosco input {
+    -webkit-box-shadow: inset 5px 5px 13px -9px #000000, inset 5px 5px 7px -30px #000000; 
+box-shadow: inset 5px 5px 13px -9px #000000, inset 5px 5px 7px -30px #000000;
+}
+
+textarea {
+    -webkit-box-shadow: inset 5px 5px 13px -9px #000000, inset 5px 5px 7px -30px #000000; 
+box-shadow: inset 5px 5px 13px -9px #000000, inset 5px 5px 7px -30px #000000;
+}
+.form-control {
+    
+    border-radius: 10px !important;
+    
+}
+
+
+.content-conosco{
+    min-height: 500px;
+    background: #FFFFFF;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 14px -5px #000000;
+}
+.content-conosco input[type="text"]{
+    width: 60%;
+}
+
+.footer-Conosco {
+    margin-top: 8rem !important;
+}
+
+.footer-image img{
+    width: 20%;
+    float: left;
+    margin-top: -100px;
+    margin-left: 185px;
+    height: 215px;
+
+}
+
+
+/*******
+ end Fale Conosco
+
+******/
+
+
+
+/*******
+ start Página da VAGA
+
+******/
+.content-VAGA p{
+    font-size: 18px;
+
+}
+.content-VAGA span{
+    font-size: 20px;
+    color: #747474;
+    font-weight: bold;
+
+}
+.content-VAGA {
+    min-height: 900px;
+    background: #FFFFFF;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 14px -5px #000000;
+    color: #7f8c8d;
+}
+
+
+.content-VAGA h3{
+    font-size:50px; 
+    color: blue;
+    text-transform: capitalize;
+}
+.text-VAGA p{
+    margin-bottom: 0;
+
+}
+.text-VAGA {
+    text-align: left;
+    margin-left: 10rem;
+
+}
+.list-VAGA  li{
+    list-style: none;
+
+}
+.google-text {
+    width: 80%;
+    margin-left: 8rem;
+    text-align: left;
+}
+
+.img-fluid-google{
+    width: 180px;
+    height: 60px;
+}
+.google-text h4{
+    color: black;
+    text-transform: capitalize;
+}
+
+.text-red p,
+.text-red span{
+    color: #ba4242;
+    margin-bottom: 8rem;
+}
+
+.list-VAGA li{
+    margin-left: 3rem;
+}
+
+.content-area .concluir-VAGA{
+    border: none;
+    background-color:#00C144;
+    padding:10px 60px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+/*******
+ end Página da VAGA
+
+******/
+
+
+/*******
+ start Página de Vagas
+
+******/
+
+.form-back{
+    height: 100px;
+    background: #FFFFFF;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 14px -5px #000000;
+    color: #7f8c8d;
+
+}
+.inner-form {
+   width: 95%;
+   margin-top: 15px;
+
+}
+.inner-form input[type="email"] {
+    padding:23px 10px; 
+    background: #FFFFFF; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    width: 87%;
+    box-shadow: 1px 1px 8px -5px #000000;
+    float: left;
+    display: block;
+
+}
+.inner-icon{ 
+    width: 10%;
+    margin-left: 3%;
+    float: left;
+    padding:19px 10px; 
+    background: #FFFFFF; 
+    box-shadow: 1px 1px 8px -5px #000000;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    background: #FFFFFF; 
+
+
+}
+.inner-icon i.fa-search{ 
+    font-size: 28px;    
+    color: #d4d4d4;
+
+}
+
+.buttons-area{
+    width: 100%;
+    padding: 20px 10px; 
+    background: #FFFFFF; 
+    box-shadow: 1px 1px 8px -5px #000000;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    background: #FFFFFF; 
+    margin-top: 10rem;
+    
+}
+
+.google-button a.text{
+    text-decoration: none;
+}
+.google-button a{
+    padding: 15px 30px; 
+    background: #FFFFFF; 
+    box-shadow: 2px 2px 12px -5px #000000;
+    cursor:pointer;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; 
+    background: #f8f8f8;
+    color: #d4d4d4;
+    font-size: 20px;
+
+
+}
+.button-img{
+    padding: 16px 12px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 12px -5px #000000;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 10px;
+    background: #f8f8f8;
+    color: #d4d4d4;
+    margin-left: 28px;
+    margin-right: -33px;
+    margin-bottom: 5px;
+
+}
+
+.containers{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.google-block-border{
+    width: 2%;
+    float: left;
+    overflow: hidden;
+}
+.google-w{
+    width: 92%;
+    float: left;
+    overflow: hidden;
+}
+.google-block-border{
+    height: 245px;
+    border-radius: 10px;
+    background: #f39c12;
+    width: 10px;
+}
+
+.google-block{
+    height: 246px;
+    background: #FFFFFF;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 14px -5px #000000;
+    color: #7f8c8d;
+    text-align: center;
+}
+
+
+
+.google-block img{
+    height: 40px;
+    width: 100px;
+}
+.google-tx h3,
+.google-tx span{
+    color: black;
+}
+
+.google-tx h3,
+.google-tx p{
+    text-align:left;
+
+}
+
+
+.google-tx {
+    line-height: .6rem;
+    padding-left: 3rem;
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+
+.page-item{ 
+    box-shadow: 2px 2px 8px -5px #000000;
+    margin-right: 10px;
+}
+
+.page-item a{
+    color: #95a5a6;
+}
+.page-hr{
+    height: 3px;
+    width: 40px;
+    background: #063B7F;
+    margin-top: 30px;
+    box-shadow: 2px 2px 8px -5px #000000;
+}
+.page-item-hr{
+    box-shadow: none;
+}
+.footer-hr{
+    margin-top: 4rem;
+}
+.pagination{
+    margin-top: 3rem;
+
+}
+
+/*******
+ end Página de Vagas
+
+******/
+
+
+/*******
+ start PERFIL EMPRESA
+
+******/
+
+
+.google-redius{
+    margin-top: 10rem;
+}
+
+.redius-image{
+    height: 250px;
+    width: 250px;
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+.redius-image2{
+    margin-top: 5rem;
+}
+.redius-text {
+    text-align: left;
+    margin-top: 4rem;
+
+}
+.redius-text h2{
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.redius-text h4{
+    color: #FFFFFF;
+    font-size: 30px;
+    text-transform: capitalize;
+
+}
+
+
+.content-google{
+    min-height: auto;
+    background: #FFFFFF;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px; 
+    border: 2px solid #ecf0f1;
+    border-bottom: none;
+}
+.g-border{
+    border: 2px solid #ecf0f1 !important;
+}
+
+
+.content-google a.edit{
+    color: #ee9260;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ee9260;
+}
+.edit-x{
+    float: right;
+}
+
+.content-google .fa{
+    color: #233d7b;
+    font-size: 28px;
+}
+
+.content-google p.google-p{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+.content-google p{
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.full-area{
+    margin-right: 20px;
+
+}
+
+
+.concluir-yellow{
+    border: none !important;
+    background: #f6931c !important;
+    padding: 1rem 7.5rem !important;
+    border-radius: 10px !important;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 8px -5px #000000;
+}
+
+.google-inner{
+    width: 95%;
+    margin-left: 1rem !important;
+}
+.google-inner h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-transform: capitalize;
+}
+.google-inner p{
+    font-size: 18px;
+}
+
+.g-border-black{
+    min-height: auto;
+    background: #FFFFFF;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px; 
+    border: 2px solid black;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.g-border-black h3{
+    color: black;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.g-border-black p{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 0;
+
+}
+
+.black-bt{
+    text-align: right;
+}
+
+.concluir-yellows {
+    border: none !important;
+    background: #f6931c !important;
+    padding: .6rem 1rem !important;
+    border-radius: 20px !important;
+    text-transform: uppercase;
+}
+.gallery-g h1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 8rem;
+    text-transform: capitalize;
+}
+
+/*******
+ end PERFIL EMPRESA
+
+******/
+
+
+
+/*******
+ start Formulário
+
+******/
+
+
+.volter-areas{
+    margin-top: 10rem !important;
+
+}
+
+.volter-area h2{
+    color: black;
+    font-size: 40px;
+    margin-top: -44px;
+    text-transform: capitalize;
+
+}
+
+
+.arrow-top {
+    background: #f6931c;
+    border: .1rem solid #f6931c;
+    height: .1rem;
+    width: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0px;
+    margin-bottom: 0;
+    transform: rotate(-48deg);
+
+}
+.arrow-bottom {
+    background: #f6931c;
+    border: .1rem solid #f6931c;
+    height: .1rem;
+    width: 50px;
+    margin-left: 2px;
+    margin-right: 0px;
+    margin-top: 33px;
+    margin-bottom: 0;
+    transform: rotate(41deg);
+
+}
+
+
+
+
+.containerz{
+    width: 75%;
+    margin: auto;
+}
+.container-input{
+    width: 65%;
+    margin: auto;
+}
+.contect-c{
+    background: #eeeeee;
+    color: black;
+    width: 100%;
+    height: auto;
+}
+.contect-c h2{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: .4rem 0rem;
+}
+
+
+
+.contect-cz h3{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.border-h-all{
+    border: 2px solid #f6931c;
+    width: 63%;
+    margin: auto;
+}
+
+.container-input .input-group-text{
+    width: 18rem !important;
+}
+
+
+.text-blod label{
+    color: black;
+    font-weight: 600;
+    padding-right: 5px;
+}
+.form-group   span.star{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.form-check .check-b{
+    background: #dedede;
+}
+
+
+/*******
+ end Formulário
+
+******/
+
+
+
+/*******
+ start cadastro rápido empresa 3.
+
+******/
+
+
+
+.g-border-green{
+    min-height: auto;
+    background: #FFFFFF;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px -5px #000000;
+}
+.big-button  .button-fullstop:hover{
+    background: #1daa70;
+
+}
+.g-border-green:hover{
+    border: 2px solid #1daa70;
+}
+
+.g-border-green .button-fullstop {
+    background: #c9c9c9;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    display: block;
+
+}
+
+.big-button-left a:hover {
+    color: #c0c0c0;
+}
+.big-button-left a {
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #c0c0c0;
+    text-decoration: none !important;
+}
+.big-button-left h5 {
+    color: red;
+    font-size: 15px;
+    color: #c0c0c0;
+    text-transform: capitalize;
+}
+
+..big-button-left{
+    float: none !important;
+}
+
+.number-area span.first{
+    margin-left: 0;
+
+}
+
+.number-area span.third{
+    background: #c9c9c9;
+
+}
+.number-area span{
+    background: #1fab72;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: normal;
+
+}
+.number-area .hr {
+    height: 8px;
+    width: 150px;
+    background: #1fab72;
+    margin: -37px 80px;
+}
+.number-area .hrs {
+    height: 8px;
+    width: 150px;
+    background: #c9c9c9;
+    margin: -37px 80px;
+}
+
+.form-area p{
+    color: #7f8c8d;
+    float: left;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.form-area{
+    margin: auto;
+    width: 60%;
+}
+
+.form-area input {
+    -webkit-box-shadow: inset 5px 5px 13px -9px #000000, inset 5px 5px 7px -30px #000000; 
+    box-shadow: inset 5px 5px 13px -9px #000000, inset 5px 5px 7px -30px #000000;
+}
+
+textarea {
+    -webkit-box-shadow: inset 5px 5px 13px -9px #000000, inset 5px 5px 7px -30px #000000; 
+    box-shadow: inset 5px 5px 13px -9px #000000, inset 5px 5px 7px -30px #000000;
+}
+.form-control {
+    
+    border-radius: 10px !important;
+    
+}
+
+
+.content{
+    min-height: 800px;
+    background: #FFFFFF;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 14px -5px #000000;
+}
+.contents{
+    min-height: auto;
+    background: #FFFFFF;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 14px -5px #000000;
+}
+
+
+/*******
+ end cadastro rápido empresa 3.
+
+******/
+
+
+/*******
+ Start Cadastro de Vaga
+
+******/
+
+/*volter*/
+
+.arrow{
+    width:75%;
+    margin:auto;
+}
+
+.volter{
+    margin-top: 280px;
+}
+
+.volter a{
+    float:left;
+    overflow: hidden;
+    color:#f79d30;
+    font-size: 70px;
+    font-weight: normal;
+}
+.volter p{
+    overflow: hidden;
+    padding: 40px 10px;
+    font-size: 25px;
+}
+
+
+
+
+.Cadastro{
+    background-color: #eeeeee;
+
+}
+
+.Cadastro h4{
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-family: castellar;
+}
+
+
+
+
+.pcd{
+    width:70%;
+    margin:auto;
+}
+.pcd h4{
+    text-align: center;
+    font-family: ;
+    border-bottom: 4px solid #f79d30;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+.input{
+    overflow: hidden;
+    
+}
+.input input {
+    -webkit-box-shadow: inset 5px 5px 13px -9px #000000, inset 5px 5px 7px -30px #000000; 
+    box-shadow: inset 5px 5px 13px -9px #000000, inset 5px 5px 7px -30px #000000;
+    width:80%;
+    border-radius: 6px;
+    padding:0 10px;
+    min-height: 35px;
+}
+.title{
+    font-family: raleway;
+    margin-top: 20px;
+    color:#747474;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.vega{
+    width:90%;
+    margin:auto;
+    margin-top: 30px;
+}
+.option ul{
+    margin-left: 0px;
+}
+.option ul {
+    text-decoration: none;
+}
+.option ul li {
+    border:1px solid white;
+    list-style: none;
+    padding:0 10px;
+    border-radius: 5px;
+    width:90%;
+}
+
+.option ul li a{
+    color:#9a9a9a;
+    margin: 5px 0;
+    text-decoration: none;
+}
+.option ul li a{
+    margin-left: 10px;
+}
+.option ul li:hover{
+    border:1px solid #1daa70;
+    -webkit-box-shadow: inset 5px 5px 13px -9px #000000, inset 5px 5px 7px -30px #000000; 
+    box-shadow: inset 5px 5px 13px -9px #000000, inset 5px 5px 7px -30px #000000;
+}
+.option ul li i{
+    color:#9a9a9a;
+}
+.option ul li:hover i{
+    color:#1daa70;
+}
+
+
+.textarea{
+    width:100%;
+    padding: 5px 10px;
+    margin-top: 20px;
+    -webkit-box-shadow: inset 5px 5px 13px -9px #000000, inset 5px 5px 7px -30px #000000; 
+    box-shadow: inset 5px 5px 13px -9px #000000, inset 5px 5px 7px -30px #000000;
+    border-radius: 6px;
+    color:#747474;
+}
+
+
+
+
+/*experience*/
+
+.experience{
+    margin-top: 80px;
+}
+.experience h5{
+    text-align: center;
+    font-family: relawy;
+    font-size: 20px;
+    color:#747474;
+    text-transform: capitalize;
+}
+.range  {
+    width:70%;
+    margin: auto;
+}
+
+#exp{
+    -webkit-appearance:none;
+    background: #9a9a9a;
+    width:100%;
+    height: 5px;
+    border-radious:5px;
+    box-shadow: 1px 2px 4px #9a9a9a;
+    outline: none;
+}
+#exp::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #1daa70;
+  cursor: pointer;
+}
+#exp::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radious:50%;
+  background: #1daa70;
+  cursor: pointer;
+}
+
+.left{
+    font-size: 12px;
+    width:70px;
+    text-align: center;
+    color:#747474;
+  
+}
+.right{
+    float: right;
+    font-size: 12px;
+    width:100px;
+    text-align: center;
+    color:#747474;
+}
+
+
+
+.radio-input label{
+    color:#747474;
+}
+ .radio-input input[type="checkbox"] + label{
+    display:block;
+}
+ .radio-input input[type="checkbox"]{
+    display:none;
+}
+
+ .radio-input input[type="checkbox"] + label:before{
+    content:"\2714";
+    border:1px solid #747474;
+    width:20px;
+    height:1px;
+    display:inline-block;
+    padding-left:3px;
+    padding-bottom:20px;
+    vartical-align:bottom;
+    margin-right: 20px;
+    -webkit-box-shadow: inset 5px 5px 10px -9px #000000, inset 5px 5px 7px -30px #000000; 
+    box-shadow: inset 5px 5px 10px -9px #000000, inset 5px 5px 7px -30px #000000;
+    border-radius: 4px;
+    color:transparent;
+ }
+
+  .radio-input input[type="checkbox"]:checked + label:before{
+    color:#747474;
+  }
+
+
+  .exam{
+    text-align: center;
+    color:#747474;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .exam .switch{
+    width:80px;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 5px 5px 10px -9px #000000, inset 5px 5px 7px -30px #000000; 
+    box-shadow: inset 5px 5px 10px -9px #000000, inset 5px 5px 7px -30px #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    background: #1daa70;
+    margin-bottom: 20px;
+
+  }
+
+
+.Cursos{
+    margin-top:30px;
+}
+.tipo{
+    width:80%;
+    margin:40px auto;
+    overflow: hidden;
+}
+.tipo3{
+    width:50%;
+    margin:40px auto;
+    overflow: hidden;
+}
+.tipo3 label{
+    float:left;
+    margin-left: 30px;
+    overflow: hidden;
+}
+.tipo label{
+    float:left;
+    margin-left: 30px;
+    overflow: hidden;
+}
+.tipo h5{
+  margin: 40px 0;
+}
+.offbtn{
+    margin-top: 60px;
+}
+.offbtn .switch{
+    color: #747474 !important;
+    border:none;
+    background: #d5d5d5;
+}
+.input2{
+    margin:auto;
+    margin-top: 25px;
+    width:60% ;
+}
+
+.input2 input{
+    width:100% !important;
+    margin: 15px 0;
+}
+.input2 h5{
+    margin:0;
+}
+.input3{
+    width:80%;
+    margin:auto;
+    margin-bottom: 30px;
+}
+.input3 input{
+    width:100%;
+    margin-top: 30px;
+}
+.tipo2{
+    width:75%;
+    margin:40px auto;
+}
+.tipo2 label{
+    margin-left: 30px;
+}
+.local{
+    margin-top: 50px;
+}
+.date{
+    margin-top: 50px;
+}
+.date input{
+    width:50%;
+}
+
+
+.borderbox{
+    width:35%;
+    margin:auto;
+    border:2px dashed  #8a8a8a;
+    box-sizing: border-box;
+}
+.box{
+    width:97%;
+    margin:5px auto;
+    padding:20px;
+    text-align: center;
+    background-image: linear-gradient(#a1abb8, #c6cdd7);
+    border-radius: 5px;
+}
+.box h3{
+    color:white;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.box .btn{
+    border:1px solid black;
+    padding: 0 25px;
+    margin:10px 0;
+    background: white;
+    font-size: 14px;
+    color:#8a8a8a;
+}
+.box p{
+    color:white;
+}
+.public h3{
+    text-align: center;
+    margin-top:15px;
+    margin-bottom: 50px;
+    color:#507cc1;
+    text-transform: capitalize;
+}
+.public{
+    text-align: center;
+}
+.public .btn{
+    background: #00c144;
+    border-radius: 10px;
+    color:white;
+    text-align: center;
+    padding: 4px 20px;
+
+}
+
+
+
+
+/*other section*/
+
+.img-fluidd{
+    width: 100% !important;
+    height: 500px !important;
+    max-width: 100%;
+}
+.images{
+    position: absolute;
+    width: 100% !important;
+}
+
+.logo{
+    position: relative;
+    text-align: center;
+    top: 100px;
+    display: block;
+    overflow: hidden;
+    
+}
+
+
+.top-bar{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+
+
+}
+
+.main-menu li.active{
+    background: #FFFFFF;
+    padding: 0px 10px;
+    
+
+}
+
+.min-w{
+    background-color: #203f77;
+    overflow: hidden;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    text-decoration: none;
+    min-width: 240px !important;
+    float: right;
+    box-shadow:  5px 5px 13px -9px #000000,  5px 5px 7px -30px #000000;
+}
+.main-menu {
+    background-color: #203f77;
+    overflow: hidden;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    text-decoration: none;
+    min-width: 340px;
+    float: right;
+    box-shadow:  5px 5px 13px -9px #000000,  5px 5px 7px -30px #000000;
+}
+
+.main-menu ul,
+.min-w ul {
+    margin: 0;
+    list-style: none;
+}
+.main-menu  ul  li,
+.min-w ul li {
+    float: left;
+}
+.main-menu ul li a,
+.min-w ul li a {
+    color: #767676;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+    padding: 18px 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+
+.content-area{
+    position: relative;
+}
+
+
+.content{
+    min-height: 800px;
+    background: #FFFFFF;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 14px -5px #000000;
+}
+
+
+.content-area .concluir-white{
+    border: none;
+    background-color:#FFFFFF;
+    padding:10px 30px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #767676;
+}
+
+.email input[type=email]{
+    padding:15px 20px; 
+    background:#FFFFFF; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    width: 28%;
+}
+
+.innerArea h5{
+    font-size: 30px;
+
+}
+
+/*******
+ end Cadastro de Vaga
+
+******/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****88
+
+****************
+   start design all page responsive 
+
+  in 15pages
+
+  ****************/
+
+
+
+
+
+/*******
+ start cadastro rápido empresa 3.
+
+******/
+@media all and (max-width: 991px){
+
+     .shado{
+        width: 100%;
+      }
+
+}
+
+
+
+@media all and (max-width: 767px){
+        
+       .shado{
+        width: 100%;
+       }
+       
+       .big-button-left h3{
+        font-size: 20px;
+       }
+
+       .big-button-left h5{
+        font-size: 12px;
+       }
+       .number-area .hr {
+        height: 51px;
+        width: 9px;
+        background: #1fab72;
+        margin: 5px 35px;
+        }
+        .number-area .hrs {
+        height: 51px;
+        width: 9px;
+        background: #c9c9c9;
+        margin: 5px 35px;
+        }
+        .number-area{
+          float: none;
+        }
+        .number-content h4{
+          text-align: center;
+          margin-top: 2rem;
+          margin-left: 3rem;
+        }
+
+}
+
+
+
+/*******
+ end cadastro rápido empresa 3.
+
+******/
+
+
+
+/*******
+ Start Cadastro de Vaga
+
+******/
+
+
+@media only screen and (max-width: 900px) {
+     .tipo{
+        text-align: left;
+        margin-left: 50px;
+    }
+    .tipo label{
+        float:none !important;
+        margin-left:0;
+    }
+    .tipo3{
+        text-align: left;
+        margin-left: 50px;
+    }
+    .tipo3 label{
+        float:none !important;
+        margin-left:0;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .social-area{
+        float: left;
+    }
+    .borderbox{
+        width:90%;
+    }
+    .input3{
+        width:100%;
+    }
+    .input2{
+        width:80%;
+    }
+    .input input {
+        width:100%;
+    }
+   
+    .date input{
+        width:80%;
+    }
+    .range{
+        width:100%;
+    }
+  
+}
+
+
+/*******
+ end Cadastro de Vaga
+
+******/
+
+
+
+
+/*******
+ start Fale Conosco
+
+******/
+
+
+@media only screen and (max-width: 991px) {
+
+    .footer-image img{
+      width: 20%;
+      float: left;
+      margin-top: -100px;
+      margin-left: 80px;
+      height: 140px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+
+    .footer-image img {
+     width: 18%;
+     float: left;
+     margin-top: -70px;
+     margin-left: 47px;
+     height: 101px;
+   }
+   .content-conosco input[type="text"] {
+    width: 100%;
+   }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    
+   .footer-image img {
+    width: 18%;
+    float: left;
+    margin-top: -20px;
+    margin-left: 175px;
+    height: 101px;
+    }
+ 
+
+}
+
+/*******
+ end Fale Conosco
+
+******/
+
+
+
+
+/*******
+ Start Mensagem Enviada
+
+******/
+
+
+@media only screen and (max-width: 767px) {
+
+      .email-image img {
+        height: 200px !important;
+        width: auto !important;
+      }
+      
+}
+
+
+/*******
+ end Mensagem Enviada
+
+******/
+
+
+
+/*******
+ Start Página da VAGA
+
+******/
+
+@media only screen and (max-width: 767px) {
+
+     .content-VAGA h3 {
+         font-size: 30px;
+     }
+     .img-fluid-google {
+        width: 90px;
+        height: 42px;
+     }
+    .text-VAGA {
+       margin-left: 2rem;
+     }
+     .google-text {
+       width: 70%;
+       margin-left: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+
+
+    .img-fluid-google {
+        width: 50px;
+        height: 20px;
+     }
+     .content-VAGA h3 {
+         font-size: 20px;
+     }
+     .text-VAGA {
+       margin-left: 1rem;
+     }
+
+}
+
+
+/*******
+ end Página da VAGA
+
+******/
+
+
+
+/*******
+ Start PERFIL EMPRESA
+
+******/
+
+
+@media only screen and (max-width: 991px) {
+
+     .g-border-black{
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      }
+      .black-bt {
+      text-align: right;
+      margin-left: -40px;
+      margin-top: 35px;
+      }
+
+      .redius-image {
+      height: 160px;
+      width: 160px;
+     }
+     .redius-image2 {
+      margin-top: 55px;
+     }
+     .redius-image img{
+      height: 50px !important;
+      width: 150px !important;     
+     }
+     .google-redius {
+     margin-top: 13rem;
+     } 
+     .redius-text h4 {
+     font-size: 20px;
+    }
+    .redius-text h2 {
+     font-size: 30px;
+     font-weight: 700;
+     }
+     .google-mr {
+     margin-left: 26px !important;
+     margin-top: -50px;
+     }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+   .edit-x{
+    margin-top: -48px;
+    }
+    .g-border-black{
+      padding-top: 1rem !important;
+      padding-bottom: 0 !important;
+    }
+    .g-border-black a{
+      margin-top: -10rem !important;
+    }
+    .gallery-g{
+      margin-bottom: -3rem;
+    }
+    .black-bt {
+      margin-top: 10px;
+}
+
+}
+@media only screen and (max-width: 575px) {
+
+    .redius-text h4 {
+      color: #f6931c;
+    }
+    .redius-text h2 {
+      color: #f6931c;
+     }
+
+
+}
+
+
+/*******
+ end PERFIL EMPRESA
+
+******/
+
+
+/*******
+ Start Página de Vagas
+
+******/
+
+@media only screen and (max-width: 767px) {
+
+    .input-up {
+      margin-top: -70px !important;
+    }
+    .form-back {
+        height: 75px;
+        width: 70%;
+    }
+
+    .inner-form input[type="email"] {
+        padding: 10px 10px;
+        width: 87%;
+    }
+
+    .inner-icon i.fa-search {
+       font-size: 20px;
+       color: #d4d4d4;
+    }
+    .inner-icon {
+       width: 10%;
+       margin-left: 3%;
+       padding: 10px 7px;
+     }
+     .google-tx {
+      padding-left: 7rem;
+     }
+}
+
+
+/*******
+ end Página de Vagas
+
+******/
+
+
+
+/*******
+ Start LOGIN Empresa 1
+
+******/
+
+
+
+@media only screen and (max-width: 767px) {
+
+  .email input[type="email"] {
+    width: 59% !important;
+  }
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+
+   .email input[type="email"] {
+    width: 45%;
+   }
+
+
+}
+
+/*******
+ end LOGIN Empresa 1
+
+******/
+
+
+
+/*******
+ Start Edição de galeria
+
+******/
+
+
+@media only screen and (max-width: 767px) {
+      
+      .content-mid h2{
+        font-size: 20px;
+
+      }
+      .content-mid img{
+        height: 130px;
+        width: 90px;
+
+      }
+
+}
+
+
+/*******
+ end Edição de galeria
+
+******/
+
+
+/*******
+ Start Edição de galeria visualização prévia galeria
+
+******/
+
+
+
+@media only screen and (max-width: 991px) {
+
+     .upload img {
+        margin-top: 20px;
+        padding-right: 13px;
+        height: 30px;
+        width: auto;
+     }
+
+
+     .upload {
+       color: #535c68;
+       font-size: 25px;
+      }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+
+     .upload img {
+        margin-top: 12px;
+        padding-right: 4px;
+        height: 30px;
+        width: auto;
+     }
+
+
+     .upload {
+       color: #535c68;
+       font-size: 23px;
+      }
+      
+
+}
+
+/*******
+ end Edição de galeria visualização prévia galeria
+
+******/
+
+
+
+ 
+
+/*******
+ Start Esqueci minha senha
+
+******/
+
+
+@media only screen and (max-width: 767px) {
+
+
+
+    .innerArea h5{
+        font-size:20px;
+    }
+}
+
+
+/*******
+ end Esqueci minha senha
+
+******/
+
+
+
+
+/****88
+
+****************
+   End design all page responsive 
+
+  in 15pages
+
+  ****************/
